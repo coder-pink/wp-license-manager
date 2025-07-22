@@ -12,7 +12,7 @@ class LMW_WC_Hooks {
             return;
         }
 
-        // TODO: Trigger license email/send logic (Phase 1 endpoint)
+        // TODO: license email/send logic
         error_log("License delivery triggered for Order #$order_id → $to_status");
     }
 }
